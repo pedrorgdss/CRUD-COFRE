@@ -1,0 +1,20 @@
+:root { --ink: #142537; --accent: #225c70; }
+body { background: #f3f6f5; color: var(--ink); min-height: 100vh; }
+.navbar { background: #142d38; min-height: 72px; }
+.navbar-brand { letter-spacing: -.04em; }
+.btn-primary { background: var(--accent); border-color: var(--accent); }
+.btn-primary:hover,.btn-primary:focus { background: #174655; border-color: #174655; }
+.btn-outline-primary { color: var(--accent); border-color: var(--accent); }
+.btn-outline-primary:hover { background: var(--accent); border-color: var(--accent); }
+.auth-container { max-width: 510px; padding-top: 7vh; padding-bottom: 4vh; }
+.form-page { max-width: 760px; }
+.card { border-radius: 18px; }
+.brand-icon,.service-icon { background: #dcf1eb; color: #1d6d5e; display: grid; place-items: center; border-radius: 14px; font-weight: 700; }
+.brand-icon { height: 50px; width: 50px; font-size: 28px; }
+.service-icon { height: 48px; width: 48px; flex: 0 0 48px; font-size: 21px; }
+.eyebrow { color: #307c72; font-size: 12px; font-weight: 800; letter-spacing: .13em; }
+.empty-state { padding: 65px 20px; border: 1px dashed #bfcfc9; border-radius: 18px; background: #fff; }
+.secret-box { background: #f1f6f5; border-radius: 10px; padding: 9px 12px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.secret-value { color: #193d47; user-select: all; }
+.min-width-0 { min-width: 0; }
+.clamp { min-height: 21px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
